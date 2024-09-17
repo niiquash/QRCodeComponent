@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(218, 227, 243);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+article {
+  margin: 10em auto;
+  padding: 1rem 1rem;
+  background-color: white;
+  width: min(430px, 450px);
+  border-radius: 1rem;
+}
+
+figure {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+
+section {
+  text-align: center;
+  margin: 1.5rem 0.1rem 2rem;
+}
+
+section p {
+  margin: 1.5rem 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+}
