@@ -20,7 +20,7 @@ article {
   margin: 10em auto;
   padding: 1rem 1rem;
   background-color: white;
-  width: min(420px, 450px);
+  width: min(320px, 350px);
   border-radius: 1rem;
 }
 
@@ -41,9 +41,13 @@ section {
   margin: 1.5rem 0.1rem 2rem;
 }
 
+section h2 {
+  font-size: 1.5rem;
+}
+
 section p {
-  margin: 1.5rem 1.5rem;
+  margin: 1.4rem 1.5rem;
   line-height: 1.5;
   letter-spacing: 0.09rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
